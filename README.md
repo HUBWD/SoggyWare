@@ -4,6 +4,7 @@ Here is the code in `loadstring`:
 loadstring("https://raw.githubusercontent.com/HUBWD/SoggyWare/main/loaded.lua")()
 ```
 **If you are unsure how to install, read this first [link](https://github.com/HUBWD/Welcome/blob/main/install.md "link")** 
+### Access Difficulty: 1/10
 ## Information
 I ended up doing this script in 3 hours and I must spend 1 hour writing it, this ***cracked*** was made on 12/29/2022 at 07:06 am (Brazil Time Zone)
 
