@@ -1,4 +1,4 @@
-local Text=game:HttpGet("https://soggy-ware.cf/getKey")
+local Text,t=game:HttpGet("https://soggy-ware.cf/getKey"),{};
 
 --Credits: https://github.com/TopGEO/Caesar-Cipher-Lua-/blob/master/Caesar%20Cipher.lua
 local Convert = function(Text, Action, Shift)
@@ -51,5 +51,6 @@ local Convert = function(Text, Action, Shift)
 end
 
 for i=1,26 do
-	print(i,Convert(Text,"Enc",i))
+	t[i]=Convert(Text,"Enc",i)
 end;
+return t
