@@ -1,4 +1,3 @@
-warn('\n\n\n\n\n\n\n\n\n\n')
 --Bypass
 getfenv().gethui=function()
 	return game:GetService"CoreGui";
